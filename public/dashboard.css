@@ -1,0 +1,179 @@
+@font-face {font-family: 'bold-mine'; src: url('../files/fonts/SourceSansPro-Bold.ttf');}
+.flag- {
+  display: flex;
+  gap: 0;
+}
+
+.web-name {
+  background-color: #131d24;
+  color: white;
+  font-size: 1.1rem;
+  margin-top: -58px;
+}
+.show-photo {
+  background-image: url('../files/images/profile.jpg');
+  padding: ;
+  height: 40vh;
+  border-bottom: 8px solid green;
+  background-position: top left center;
+  
+}
+.welcome-txt {
+  font-family: 'bold-mine';
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  width: 50%;
+  padding-top: 10vh;
+}
+.half-div {
+  width: 100%;
+  background-color: rgba(12,12,12,59%);
+  height: 100%;
+  text-align: left;
+}
+.des-txt {
+  color: lightgray;
+  display: inline-block;
+  padding: 8px;
+}
+.-btns- {
+  padding: 10px;
+  padding: 10px;
+}
+
+
+.grids {
+  padding: 20px;
+  border-top: 8px solid red;
+  margin-top: 8px;
+  border-bottom: 8px solid lightgrey
+}
+.display-grid {
+  padding: 10px;
+  border: ;
+  margin-top: -8vh;
+}
+.div-navs {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.div-nav {
+  padding: 10px;
+  background: url('../files/images/field.jpg');
+ background-color: #131d19; /* rgba(12,12,12,89%);*/
+  color: white;
+  border-radius: 10px;
+}
+
+.div-nav > h3 {
+  font-size: 1.rem;
+  text-align: center;
+  padding: 8px;
+}
+.div-nav > hr, .hr-grid {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, green, red, red, red);
+}
+.div-nav > p {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 8px;
+  color: aliceblue;
+}
+.hr-grid {
+  margin: 10px;
+  height: 4px;
+}
+.stand-top4, .result-table {
+  border-collapse: collapse;
+  justify-self: center;
+}
+.stand-top4 thead {
+  background-color: #131d24;
+  padding: 10px;
+  font-weight: 1000;
+  color: white;
+}
+.stand-top4 td , .stand-top4 th, .result-table td, .result-table th{
+  padding: 10px;
+  text-align: center;
+}
+.table-standings-div, .result-div {
+  color: white;
+  background-color: #131d19;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.table-standings-div {
+  background: url('../files/images/banner.jpg');
+  background-position: top 50%;
+}
+.result-div {
+  background: url('../files/images/field.jpg');
+}
+.stand-top4 tr:nth-of-type(even)/*, .result-table tr:nth-of-type(even)*/ {
+  background-color: green;
+}
+.stand-top4 tr:nth-of-type(odd) {
+  background-color: #35383d;
+}
+.stand-top4 tr:nth-child(5) {
+  background: ;
+}
+.stand-top4 tr td:nth-child(2) {
+  text-align: left;
+}
+.result-table tr td:nth-of-type(even) {
+  background-color: lightgray;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 1000;
+  color: #1e1e1e;
+}
+.result-table {
+  border-collapse:  separate;
+}
+.title-top {
+  font-size: 1.2rem;
+  color: black;
+  padding: 23px;
+}
+.top-story {
+  background-color: aliceblue;
+  padding: 10px;
+}
+.news-card {
+  margin: 20px;
+  text-align: center;
+  /*border: 1px solid;*/
+  background: rgba(25,25,23,19%);
+}
+.news-card > img {
+  height: 25vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+.news-card h2 , .news-card p{
+  text-align: left;
+  padding: 5px;
+}
+.news-card div {
+  width: 100%; text-align: right;
+}
+.play {
+  background-color: red;
+  height: 50vh;
+  width: 50%;
+  position: absolute;
+  margin-top: 0vh;
+  background: url('../files/images/no-bg.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+}

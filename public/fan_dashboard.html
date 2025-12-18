@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+  
+<html lang="en">
+<head>
+  <title>Kenyan Football Fan</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="author" content="Kym Chirchir"/>
+  <link rel="stylesheet" href="./main-style.css"/>
+  <link rel="stylesheet" href="./dashboard.css"/>
+  <script type="text/javascript" src="./main-script.js"></script>
+  <script type="text/javascript" src="./dashboard.js"></script>
+  <script type="text/javascript">
+function fill_() {
+  const pl_table = document.querySelector('.table-standings-div');
+  pl_table.innerHTML = edit();
+}
+  </script>
+</head>
+<body onload='fill_()'>
+  <div class="top-navs">
+    <nav>
+      <a>Home</a>
+      <a href="./fixture.html">Fixtures</a>
+      <a href="./results.html">Results</a>
+      <a href="./news.html">News</a>
+      <a>Stats</a>
+      <a>Top Scorers</a>
+    </nav>
+  </div>
+  <header>
+    <!--h4>You are welcomed whether you visited this site as a player or as a fan.</h4><br-->
+    <p>This site has not yet been publicly released - in that case your are going to use it having in mind its incomplete or may have wrong information. It's a pleasure having you as early as now though.</p>
+  </header>
+  
+  <!--div class="flag-">
+    <img class="img-flag" alt=""/>
+    <img class="img-box" src="" alt=""/>
+    <div class="web-name">KENYAN<br>FOOTBALL FUN</div>
+  </div-->
+  <div class="show-photo">
+    <div class="half-div">
+      <div class="welcome-txt">HOME FOR A KENYAN<br>FOOTBALL FAN</div>
+      <p class="des-txt">All the Latest on FKF Premier League & Local League</p>
+      <div class="-btns-">
+        <button class="view-btn" onclick="window.location.href='./fixture.html'">View Fixtures</button>
+        <button class="live-btn" onclick="window.location.href='./news.html'">Get Live Results</button>
+      </div>
+    </div>
+    
+  </div>
+  <div class="grids">
+    <div class="display-grid">
+      
+      <div class="div-navs">
+        <div class="div-nav"><h3>LEAGUE FIXTURES</h1><hr><p>FKF PL Upcoming fixtures</p></div>
+        <div class="div-nav"><h3>LEAGUE TABLES</h1><hr><p>FKF tables</p></div>
+        <div class="div-nav"><h3>TOP SCORERS</h1><hr><p>Season Top Scorers</p></div>
+        <div class="div-nav"><h3>LATEST NEWS</h1><hr><p>Don't miss the latest news</p></div>
+      </div>
+      <hr class="hr-grid">
+      <div class="table&results">
+        <div class="table-standings-div" >
+          <h3>KENYA PREMIER LEAGUE</h3>
+          <table class="stand-top4">
+            <tr>
+              <th>POS</th><th>TEAM</th><th>P</th><th>W</th><th>D</th><th>L</th><th>Pts</th>
+            </tr>
+            <tr>
+              <td>1.</td><td>TUSKER FC</td><td>10</td><td>11</td><td>5</td><td>5</td><td>38</td>
+            </tr>
+            <tr>
+              <td>2.</td><td>GOR MAHIA</td><td>10</td><td>11</td><td>5</td><td>5</td><td>38</td>
+            </tr><tr>
+              <td>3.</td><td>AFC LEOPARDS FC</td><td>10</td><td>11</td><td>5</td><td>5</td><td>38</td>
+            </tr><tr> <td>4.</td><td>KARIOBANGI SHARKS</td><td>10</td><td>11</td><td>5</td><td>5</td><td>38</td>
+            </tr>
+          </table>
+        </div>
+        <hr class="hr-grid">
+        <!--div class="result-div">
+          <h3>LATEST RESULTS</h3>
+          <table class="result-table">
+            <tr>
+              <td>APS BOMET</td><td>2</td><td>FT</td><td>4</td><td>KCB BANK</td>
+            </tr><tr><td>APS BOMET</td><td>29</td><td>FT</td><td>4</td><td>KCB BANK</td>
+            </tr>
+          </table>
+        </div-->
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-banner">
+    <div class="real-banner">
+      <h4>MEET YOUT FAVOURITE TEAM & PLAYERS</h4>
+      <p>Players, Stats & More</p>
+      <button class="view-btn">EXPLORE</button>
+    </div>
+  </div>
+  <section class="top-story">
+    <h3 class="title-top">LATEST NEWS & RESULTS</h3>
+    <div class="news-card">
+      <img alt=" " src="../files/images/banner.jpg"/>
+      <h2>Narrow win for Tusker Fc win over Gor Mahia</h2>
+      <p>December 12, 2025</p>
+      <div><button class="live-btn">READ MORE</button></div>
+    </div>
+  </section>
+  <footer>
+    <h4>You are welcomed whether you visited this site as a player or as a fan.</h4><br>
+    <p><strong>Why is the site incomplete ? </strong>This site has not yet been publicly released - in that case your are going to use it having in mind its incomplete or may have wrong information. It's a pleasure having you as early as now.</p>
+  </footer>
+</body>
+</html>
